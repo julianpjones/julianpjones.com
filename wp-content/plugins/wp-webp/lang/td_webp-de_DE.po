@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-webp\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-18 20:14+0200\n"
+"PO-Revision-Date: 2013-04-18 20:17+0100\n"
+"Last-Translator: tuxlog <webmaster@tuxlog.de>\n"
+"Language-Team: tuxlog <webmaster@tuxlog.de>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-webp.php:152
+msgid "Allways add javascript support for WebP (even when the browser has native support)."
+msgstr "WebP immer durch Javascript unterstützen (auch wenn der Browser das WebP Format unterstützt)."
+
+#: wp-webp.php:162
+msgid "Place javascript in the footer of the page (default is in the header)."
+msgstr "WebP Javascript am Ende der Seite ausgeben (Standard ist der Kopbereich)"
+
+#: wp-webp.php:172
+msgid "Enable use of experimental libwebp support for decoder with alpha and lossless support."
+msgstr "Verwende die experimentelle Version der libwebp mit Unterstützung des Alphakanals und verlustfreier De-/Enkodierung"
+
