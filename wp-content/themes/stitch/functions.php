@@ -65,7 +65,7 @@ function stitch_setup() {
 	 */
 	$stitch_defaults = array(
 		'default-color'          => 'f7f6f2',
-		'default-image'          => get_template_directory_uri() . '/images/background2.jpg',
+		'default-image'          => get_template_directory_uri() . '/images/background_white.jpg',
 	);
 	add_theme_support( 'custom-background', $stitch_defaults );
 
