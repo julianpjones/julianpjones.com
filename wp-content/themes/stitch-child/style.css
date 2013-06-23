@@ -85,9 +85,9 @@ input,
 select,
 textarea {
 	color: #3d200e;
-	font-family: "Rufina", Baskerville, "Times New Roman", serif;
-	font-size: 16px;
-	font-size: 1.6rem;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-size: 1.4rem;
 	line-height: 1.8;
 }
 body {
@@ -98,15 +98,15 @@ body {
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
 	clear: both;
-	color: #96d4b3;
-	font-family: "Helvetica Neue";
+	color: #000;
+	font-family: "Helvetica Neue" Helvetica, Arial, sans-serif;
 	line-height: 1;
 	font-weight: bold;
 	margin: 1.2em 0 .6em;
 }
 h1 {
-	font-size: 36px;
-	font-size: 3.6rem;
+	font-size: 26px;
+	font-size: 2.6rem;
 }
 h2 {
 	font-size: 32px;
@@ -471,8 +471,8 @@ a:active {
 	color: #000;
 	display: table-cell;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 30px;
-	font-size: 4.0rem;
+	font-size: 32px;
+	font-size: 4.2rem;
 	line-height: .9;
 	margin: 0 auto;
 	overflow: hidden;
@@ -489,7 +489,7 @@ a:active {
 	display: table-cell;
 	overflow: hidden;
 	vertical-align: top;
-	max-width: 220px;
+	max-width: 240px;
 	max-height: 150px;
 }
 .site-description {
@@ -526,8 +526,8 @@ a:active {
 	position: relative;
 }
 .main-navigation a {
-	color: rgba(0,0,0,.6);
-	border-bottom: 1px solid rgba(255,255,255,0);
+	color: rgba(0,0,0,.4);
+	border-bottom: 1px solid rgba(0,255,255,0);
 	display: block;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
@@ -537,6 +537,7 @@ a:active {
 	text-decoration: none;
 	text-transform: none;
 	text-align: left;
+	font-weight: bold;
 }
 .main-navigation ul ul {
 	background: url('images/background-white.jpg');
@@ -544,7 +545,7 @@ a:active {
 	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
-	float: right;
+	float: left;
 	opacity: 0;
 	position: absolute;
 		top: 0;
@@ -605,20 +606,29 @@ a:active {
 /* Small menu */
 .menu-toggle {
 	cursor: pointer;
-	margin: 22px;
+	margin: 23px;
+	background: rgba(5,166,255,.9);
+	padding: 0.25em;
+	width: 20%;
+	text-align: center;
+	color: #FFF;
+	margin-left: 10.8em;
+	margin-top: -125px;
 }
 .main-small-navigation .menu {
 	border-bottom: 1px dashed rgba(255,255,255,.2);
 	display: none;
 	list-style: none;
-	margin: 6px;
-	padding: 0;
-	width: 88%;
+	width: 88%
 }
 .main-small-navigation .menu ul {
 	list-style: none;
-	margin: 6px;
+	margin: 21px;
+	margin-top: -23px;
+	margin-left: 18em;
 	padding: 0;
+	background: rgba(0,0,0,.1);
+	width: 35%;
 }
 .main-small-navigation .menu li {
 	list-style: none;
@@ -626,24 +636,23 @@ a:active {
 	padding: 0;
 }
 .main-small-navigation .menu a {
-	color: rgba(255,255,255,.2);
-	border-bottom: 1px solid rgba(255,255,255,.1);
+	color: rgba(0,0,0,.4);
 	display: table;
-	font-family: "Fjalla One", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
-	padding: .9em 0;
-	text-align: left;
+	padding: .2em 0;
+	text-align: right;
 	text-decoration: none;
-	text-transform: uppercase;
+	font-weight: bold;
 	margin: 6px;
 }
 .main-small-navigation .menu a:hover {
-	color: #fff;
+	color: #000;
 }
 .main-small-navigation li.current_page_item a,
 .main-small-navigation li.current-menu-item a {
-	color: #fff;
+	color: #000;
 }
 
 
@@ -672,20 +681,13 @@ a:active {
 	width: 100%;
 	height: 20px;
 }
-.entry-content > p:first-of-type:first-letter {
-	float: left;
-	line-height: 1;
-	margin: 0 5px -5px 0;
-	font-size: 58px;
-	font-size: 5.8rem;
-}
 .entry-title,
 .entry-title a {
-	color: #74452e;
+	color: #434343;
 	display: block;
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 32px;
-	font-size: 3.2rem;
+	font-size: 24px;
+	font-size: 2.8rem;
 	margin: 0;
 	max-width: 100%;
 	text-transform: none;
