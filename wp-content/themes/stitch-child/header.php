@@ -18,10 +18,11 @@
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
 
 <?php wp_head(); ?>
 </head>
-
+<body <?php if (is_page(12)) { echo 'onload="initialize()" onunload="GUnload()"'; } ?>>
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>

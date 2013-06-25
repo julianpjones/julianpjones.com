@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<markers>
+  <marker>
+    <marker_id>2</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address>16 Valley Street, Seattle, WA</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>47.6264265</lat>
+    <lng>-122.35576459999999</lng>
+    <anim></anim>
+    <infoopen></infoopen>
+  </marker>
+</markers>
