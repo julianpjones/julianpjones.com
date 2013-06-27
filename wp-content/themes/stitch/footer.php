@@ -12,7 +12,6 @@
 	</div><!-- #main .site-main -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-
 	</footer><!-- #colophon .site-footer -->
 </div><!-- #page .hfeed .site -->
 

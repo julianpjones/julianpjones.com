@@ -99,7 +99,7 @@ get_header(); ?>
                     position: leeds
                 });
 
-                var contentString1 = '<p><b>Julian Jones</b><br>16 Valley Street #44<br>Seattle, WA 98109</p>';
+                var contentString1 = '<p><b>Julian Jones</b><br>Queen Anne Ave N & Valley St<br>Seattle, WA 98109</p>';
 
 
                 var infowindow1 = new google.maps.InfoWindow({
@@ -115,7 +115,7 @@ get_header(); ?>
 
             <div class="map">
 
-                <div id="map_leeds" style="width: 100%; height: 150px"></div>  
+                <div id="map_leeds" style="width: 100%; height: 275px"></div>  
 
             </div>
             <?php while ( have_posts() ) : the_post(); ?>
